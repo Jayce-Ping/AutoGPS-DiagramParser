@@ -1,0 +1,31 @@
+names:
+  0: angle-others
+  1: arrow-others
+  2: bar-others
+  3: circles
+  4: double angle-others
+  5: double bar-others
+  6: double parallel-others
+  7: head-others
+  8: head_len-others
+  9: lines
+  10: parallel-others
+  11: penta angle-others
+  12: perpendicular-others
+  13: points
+  14: quad angle-others
+  15: quad bar-others
+  16: text-angle
+  17: text-area
+  18: text-degree
+  19: text-len
+  20: text-line
+  21: text-others
+  22: text-point
+  23: triple angle-others
+  24: triple bar-others
+  25: triple parallel-others
+path: /data/pbw/PlaneGeometry/PGDP5K_yolo_seg
+test: images/test/
+train: images/train/
+val: images/val/
