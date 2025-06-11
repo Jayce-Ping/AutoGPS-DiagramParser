@@ -34,10 +34,10 @@ def parse_args():
     """
     parser = argparse.ArgumentParser(description="Train a YOLO model.")
     parser.add_argument('--model_name', type=str, default='yolo11n-seg', help='Name of the YOLO model to train.')
-    parser.add_argument('--model_path', type=str, default='/data/pbw/yolo/models/{model_name}.pt', help='Path to the YOLO model file.')
+    parser.add_argument('--model_path', type=str, default='models/{model_name}.pt', help='Path to the YOLO model file.')
     parser.add_argument('--device', type=int, default=-1, help='Device to use for training.')
     parser.add_argument('--dataset_dir', type=str, default='datasets/PGDP5K_yolo_seg', help='Directory of the dataset.')
-    parser.add_argument('--project', type=str, default='../train_{model_name}_results', help='Directory to save training results.')
+    parser.add_argument('--project', type=str, default='train_{model_name}_results', help='Directory to save training results.')
     parser.add_argument('--epochs', type=int, default=300, help='Number of training epochs.')
     parser.add_argument('--imgsz', type=int, default=640, help='Image size for training.')
     parser.add_argument('--model_save_path', type=str, default='models/best-{model_name}.pt', help='Path to save the trained model.')
